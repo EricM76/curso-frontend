@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saphirus by Prisca</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/ae7c764a16.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="home">
+    <header class="header">
+        <a href="https://saphirus.com.ar/" target="_blank"><img src="/img/logo_saphirus.svg" alt="Logo Saphirus"></a>
+        <button class="buttons buttons__rose">
+            menu <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav class="header__nav">
+            <ul>
+                <li>
+                    <a href="#portfolio">mi trabajo</a>
+                </li>
+                <li>
+                    <a href="#about">soy prisca</a>
+                </li>
+                <li>
+                    <a href="#contact">contactame</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="home__main">
+        <section class="home__main__section--banner">
+            <figure>
+                <img src="/img/prisca_logo_custom.jpeg" alt="">
+            </figure>
+            <h1 data-aos="flip-up">Saphirus <span>by</span> Prisca</h1>
+            <div class="home__main__section--star">
+                <hr>
+                <h4><i class="fa-solid fa-star"></i></h4>
+                <hr>
+            </div>
+            <p>Perfumista - Asesora de aromas - Distribuidora de frangancias</p>
+        </section>
+        <section class="home__main__section--portfolio" id="portfolio">
+            <h2 class="general__subtitulos">Productos desarrollados </h2>
+            <div class="home__main__section--star">
+                <hr>
+                <h4><i class="fa-solid fa-star"></i></h4>
+                <hr>
+            </div>
+            <div class="home__main__section--portfolio--images">
+                <figure data-aos="zoom-in-down" data-aos-duration="1000">
+                    <img src="/img/banner-cat-home-aerosol-saphirus.webp" alt="">
+                </figure>
+                <figure data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="/img/banner-cat-textil.webp" alt="">
+                </figure>
+                <figure data-aos="zoom-in-up" data-aos-duration="1000">
+                    <img src="/img/banner-cat-aceites-esenciales-ambar.webp" alt="">
+                </figure>
+                <figure data-aos="zoom-in-down" data-aos-duration="1000">
+                    <img src="/img/banner-cat-difusor-premium-saphirus.webp" alt="">
+                </figure>
+                <figure data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="/img/banner-categoria-homespray-saphirus.webp" alt="">
+                </figure>
+                <figure data-aos="zoom-in-up" data-aos-duration="1000">
+                    <img src="/img/banner-cat-autoaromas-route-66-saphirus.webp" alt="">
+                </figure>
+            </div>
+            <a href="#" id="scrollToTopBtn" class="scroll-to-top">
+                ↑
+            </a>
+        </section>
+        <section class="home__main__section--about" id="about">
+            <h2 class="general__subtitulos">Soy Prisca</h2>
+            <div class="home__main__section--star">
+                <hr>
+                <h4><i class="fa-solid fa-star"></i></h4>
+                <hr>
+            </div>
+            <article>
+                <p>El aroma tiene la mística de transportarnos a lugares lejanos, a los seres queridos y amados, a momentos especiales guardados en gratos recuerdos. Se necesita sólo un instante para que todo lo que te rodea se vuelva encantador y maravilloso.</p>
+                <p>Como parte del equipo de desarrollo de <strong>Saphirus</strong> he intervenido en una gran cantidad de productos en diferentes formatos, como aromatizadores para telas y ambientes, spray para el hogar, aerosoles, varillas difusoras, aceites esenciales y mucho más!</p>
+            </article>
+            <a href="documento.pdf" download="/pdf/PriscilaMena.CV.pdf"><i class="fa-solid fa-download"></i> Descarga el CV</a>
+        </section>
+        <section class="home__main__section--contact" id="contact">
+            <h2 class="general__subtitulos">Contactame</h2>
+            <div class="home__main__section--star">
+                <hr>
+                <h4><i class="fa-solid fa-star"></i></h4>
+                <hr>
+            </div>
+            <form action="https://formspree.io/f/xovdowvg" method="POST" id="form_contact">
+                <div class="form__box">
+                    <label for="name">Nombre</label>
+                    <input class="form-input" type="text" autocomplete="off" id="name" name="name" required>
+                </div>
+                <div class="form__box">
+                    <label for="email">Correo electrónico</label>
+                    <input class="form-input" type="email" autocomplete="off" id="email" name="email" required>
+                </div>
+                <div class="form__box">
+                    <label for="phone">Número de teléfono</label>
+                    <input class="form-input" type="tel" autocomplete="off" id="phone" name="phone" required>
+                </div>
+                <div class="form__box">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-textarea" name="message" id="message" rows="10" required></textarea>
+                </div>
+                <div class="form__box--flex">
+                    <button class="buttons buttons__rose" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__section">
+            <article class="footer__section__article">
+                <h3>ubicación</h3>
+                <p>El Libertador, Loma Hermosa</p>
+                <p>Buenos Aires</p>
+            </article>
+            <article class="footer__section__article">
+                <h3>Redes sociales</h3>
+                <div class="home__footer__section__article--network">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </article>
+            <article class="footer__section__article">
+                <h3>Acerca de mí</h3>
+                <p>Detallista y dedicada, dispuesta a adquirir nuevos conocimientos. Me adapto con facilidad a nuevos
+                    espacios.</p>
+            </article>
+        </section>
+        <section class="footer__section__article--copyright">
+            <p>Copyright<i class="fa fa-copyright"></i> Developed by Eric 2025</p>
+        </section>
+
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+         document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('form_contact');
+            if (form) {
+                form.reset();
+            }
+        });
+
+    </script>
+</body>
+
+</html>
